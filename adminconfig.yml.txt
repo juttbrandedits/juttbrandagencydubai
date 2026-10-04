@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+collections:
+    - name: "pricing"
+    label: "Pricing Section"
+    files:
+            - label: "Edit Pricing"
+        name: "pricing"
+        file: "content/pricing.json"
+        fields:
+                    - {label: "Logo & Brand Identity", name: "logo_price", widget: "string", default: "$300-$800"}
+                    - {label: "Social Media Branding", name: "social_price", widget: "string", default: "$400-$900/month"}
+                    - {label: "Brochure Design", name: "brochure_price", widget: "string", default: "$150-$400"}
+                    - {label: "Pitch Deck", name: "deck_price", widget: "string", default: "$200-$600"}
+                    - {label: "Appointment Setter Combo", name: "setter_price", widget: "string", default: "$600-$1200/month"}
+                    - {label: "Full Package", name: "full_price", widget: "string", default: "$1000-$2500"}
+                    - {label: "Calendly Link", name: "calendly", widget: "string", default: "https://calendly.com/rashidaliwahlah070"}

@@ -1,0 +1,9 @@
+{
+  "logo_price": "$300-$800",
+  "social_price": "$400-$900/month",
+  "brochure_price": "$150-$400",
+  "deck_price": "$200-$600",
+  "setter_price": "$600-$1200/month",
+  "full_price": "$1000-$2500",
+  "calendly": "https://calendly.com/rashidaliwahlah070"
+}

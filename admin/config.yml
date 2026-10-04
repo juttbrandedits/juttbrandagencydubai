@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+collections:
+    - name: "pricing"
+    label: "Pricing Section"
+    files:
+            - label: "Edit Pricing"
+        name: "pricing"
+        file: "content/pricing.json"
+        fields:
+                    - {label: "Logo & Brand Identity", name: "logo_price", widget: "string"}
+                    - {label: "Social Media Branding", name: "social_price", widget: "string"}
+                    - {label: "Brochure Design", name: "brochure_price", widget: "string"}
+                    - {label: "Pitch Deck", name: "deck_price", widget: "string"}
+                    - {label: "Appointment Setter Combo", name: "setter_price", widget: "string"}
+                    - {label: "Full Package", name: "full_price", widget: "string"}
+                    - {label: "Calendly Link", name: "calendly", widget: "string"}
